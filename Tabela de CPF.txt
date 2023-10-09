@@ -1,0 +1,25 @@
+CREATE TABLE CPF(
+NUM_CARTAO VARCHAR(16) PRIMARY KEY,
+ID NUMBER,
+CPF VARCHAR(50) NOT NULL,
+IDADE NUMBER,
+ENDERECO VARCHAR(50),
+EMAIL VARCHAR (50)
+);
+
+INSERT INTO CPF (NUM_CARTAO, ID ,CPF, IDADE, ENDERECO , EMAIL)
+VALUES('4532123456789012' , 1 , '12244423289' , 19 ,' Travessa da Magia 890, Bairro da Ilusão' , 'Isaia@gmail.com' );
+INSERT INTO CPF (NUM_CARTAO, ID ,CPF, IDADE, ENDERECO , EMAIL)
+VALUES('371000123456789' , 2 , '22200033345' , 23 ,'Alameda das Estrelas, 567, Bairro da Aventura' , 'John@gmail.com' );
+INSERT INTO CPF (NUM_CARTAO, ID ,CPF, IDADE, ENDERECO , EMAIL)
+VALUES('6011123456789012' , 3 , '33311155567' , 33 ,' Rua da Paz, 234, Bairro da Fantasia' , 'Joao@gmail.com' );
+INSERT INTO CPF (NUM_CARTAO, ID ,CPF, IDADE, ENDERECO , EMAIL)
+VALUES('5222333344445555' , 4 , '33344455587' , 25 ,' Praça da Liberdade, 789, Bairro dos Sonhos' , 'Marcelo@gmail.com' );
+INSERT INTO CPF (NUM_CARTAO, ID ,CPF, IDADE, ENDERECO , EMAIL)
+VALUES('4111222233334444' , 5 , '99988772100' , 22,'Avenida do Sol, 456, Bairro da Imaginação' , 'Pedro@gmail.com' );
+INSERT INTO CPF (NUM_CARTAO, ID ,CPF, IDADE, ENDERECO , EMAIL)
+VALUES('5555123456789012' , 6 , '00022233345' , 24 ,'Rua das Flores, 123, Bairro da Alegria ' , 'Souza@gmail.com' );
+
+commit;
+
+-------------------------------------- TABELA DE CPF
